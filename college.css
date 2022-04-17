@@ -1,0 +1,26 @@
+#grad2{
+    background: url("images/grad1.webp") no-repeat center / cover;
+    height: 300px;
+   
+}
+nav ul{
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: firebrick;
+    line-height: 50px;
+    
+}
+nav ul li
+{
+    cursor: pointer;
+   
+}
+a
+{
+    color:white;
+}
+
+
+
+

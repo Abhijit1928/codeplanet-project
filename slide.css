@@ -1,0 +1,339 @@
+nav ul{
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: black;
+    line-height: 50px;
+
+}
+nav ul li
+{
+    cursor: pointer;
+
+}
+nav ul li a:hover{
+  color:aquamarine;
+  font-size: 14px;
+}
+a
+{
+    color:white;
+}
+
+*{
+    padding: 0 0.05rem;
+    margin: 0;
+}
+.header h1{
+  text-align: center;
+  color: darkblue;
+  background-color: beige;
+  font-size: 45px;
+}
+.header img {
+  float: left;
+  width: 120px;
+  height: 52px;
+}
+/* .header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+} */
+
+
+
+
+/* slideshow css code */
+* {
+    box-sizing:border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1300px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .45}
+  to {opacity: 1}
+}
+marquee
+{
+  font-size: 20px;
+  background-color: #E0FFFF;
+}
+marquee a
+{
+  color: goldenrod;
+}
+marquee a:hover{
+  font-size: 14px;
+}
+
+/* Boxes */
+
+.box{
+  display: flex;
+  justify-content: space-between;
+}
+.box #b1
+{
+  flex-basis: 15%;
+ margin-top:0;
+ display:flex;
+ padding: 20px 12px;
+ background-color: aquamarine;
+ box-sizing: border-box;
+ border-radius: 10px;
+ transition: 0.5s;
+ margin-bottom: 5%;
+ font-family: 'Oswald', sans-serif;
+ font-size: larger;
+
+}
+.box #b1:hover{
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.74);
+}
+
+.box #b2
+{
+  flex-basis: 15%;
+ margin-top:0;
+ display:flex;
+ padding: 20px 12px;
+ background-color: rgb(192, 72, 56);
+ box-sizing: border-box;
+ border-radius: 10px;
+ width:fit-content;
+ transition: 0.5s;
+ margin-bottom: 5%;
+}
+.box #b2:hover{
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.74);
+}
+.box #b3
+{
+  flex-basis: 15%;
+ margin-top:0;
+ display:flex;
+ padding: 20px 12px;
+ background-color: rgb(255, 123, 0);
+ box-sizing: border-box;
+ border-radius: 10px;
+ width:fit-content;
+ transition: 0.5s;
+ margin-bottom: 5%;
+}
+.box #b3:hover{
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.74);
+}
+.box #b4
+{
+  flex-basis: 15%;
+ margin-top:0;
+ display:flex;
+ padding: 20px 12px;
+ background-color: rgb(4, 196, 255);
+ box-sizing: border-box;
+ border-radius: 10px;
+ width:fit-content;
+ transition: 0.5s;
+ margin-bottom: 5%;
+}
+.box #b4:hover{
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.74);
+}
+
+.ready
+{
+  text-align: center;
+  padding: 100px 100px;
+  border-radius:50%;
+  box-sizing: border-box;
+  background-color: #717171;
+  margin-bottom: 5%;
+}
+.ready h1{
+  color: #86bccc;
+}
+.ready:hover{
+  font-size: 30px; 
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1000px;
+	
+	margin: auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b ;
+	padding: 90px,0;
+}
+.footer-col{
+	width: 25%;
+	padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+  margin-top: 5%;
+	
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: purple;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	background-color: green;
+	margin: 0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+
+
+}
+
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+.container .row .footer-col #contact p
+{
+  font-size: 16px;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.5s ease;
+}
+.container .row .footer-col #contact p:hover{
+  color: #ffffff;
+	padding-left: 8px;
+}
+.placement
+{
+  margin-left: 5px;
+ background: #e2e7e9;
+ width: 75%;
+ padding: 2rem 3rem;
+}
